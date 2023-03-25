@@ -42,6 +42,7 @@ FILE *in_fp;
 #define LEFT_PAREN 33
 #define RIGHT_PAREN 34
 
+/*enter your text on a separate file titled file.txt in the same directory as this program, or change file.txt to your file's name.*/
 int main(void) {
 	if((in_fp = fopen("file.txt", "r")) == NULL)
 		printf("ERROR - cannot open file");
